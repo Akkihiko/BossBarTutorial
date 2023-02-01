@@ -18,8 +18,8 @@ public final class BossBarTutorial extends JavaPlugin implements CommandExecutor
         if (!(sender instanceof Player)) return false;
 
         Player player = (Player) sender;
-        new BossBarRunnable(player, 10).runTaskTimer(this, 0, 5);
-        // Run this code above with 0 delay between 5 ticks
+        new BossBarRunnable(player, 10).runTaskTimer(this, 0, 2);
+        // Run this code above with 0 delay between 2 ticks
 
         return true;
     }
