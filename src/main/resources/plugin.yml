@@ -1,0 +1,6 @@
+name: BossBarTutorial
+version: '${project.version}'
+main: com.akkih.bossbartutorial.BossBarTutorial
+api-version: 1.19
+commands:
+  bossbar:
